@@ -41,12 +41,12 @@ scatter_plot.add_trace(
     go.Scatter(
         x=lbs['offensive'],
         y=lbs['defensive'],
-        text=lbs.apply(lambda row: f"Team: {row['team_name']}<br>Player: {row['player_name']}<br>Position: {row['primary_position']}", axis=1),
+        text=lbs.apply(lambda row: f"Team: {row['team_name']}<br>Age: {row['Age']}<br>Position: {row['primary_position']}", axis=1),
         mode='markers',
         marker=dict(
             color=lbs['team_color'],
             size=12,
-            line=dict(color='white', width=2)
+            line=dict(color=None, width=2)
         )
     )
 )
@@ -59,14 +59,14 @@ scatter_plot.update_layout(
     showlegend=False,
     hovermode='closest',
     plot_bgcolor='rgba(0,0,0,0)',
-    paper_bgcolor='grey',
+    paper_bgcolor='rgba(230,230,250)',
     annotations=[
         dict(
             text=name,
             x=x,
             y=y + 0.01,
             showarrow=False,
-            font=dict(size=9, color='black')
+            font=dict(size=9, color='white')
         )
         for name, x, y in zip(lbs['player_name'], lbs['offensive'], lbs['defensive'])
     ]
