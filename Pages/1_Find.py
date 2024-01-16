@@ -73,4 +73,4 @@ scatter_plot.update_layout(
 )
 
 # Streamlit app
-st.plotly_chart(scatter_plot)
+st.plotly_chart(scatter_plot) 
