@@ -6,7 +6,7 @@ import plotly.io as pio
 
 pio.templates.default = 'plotly' 
 # Read the CSV file
-df = pd.read_csv('plots/dc_pass_da_obv.csv').iloc[:, 1:]
+df = pd.read_csv('Plots/dc_pass_da_obv.csv').iloc[:, 1:]
 
 # Define team colors
 team_colors = {
