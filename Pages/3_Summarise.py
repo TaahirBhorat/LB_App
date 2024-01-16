@@ -14,5 +14,3 @@ with col2:
 col3, col4, col5 = st.columns([1,2,1])
 with col4:
     st.image('Plots/Sithole.png',  use_column_width=True)
-
-st.write('Here we have placed the variables into broader groups and shown the results in more commonly used radar plots.')
