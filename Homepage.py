@@ -18,5 +18,5 @@ st.write('Click on the Compare tab to understand how your LB differs in quality 
 st.subheader('Step 3: Summarise the information for referencing back')
 st.write('Click on the Summarise tab to quickly see the overall atributes of the LBs identified')
 st.subheader('Step 4: Delve deeper into understanding the exact nature and quality of players actions')
-st.write("Here we show the exact actions and quality of each identified LB to examine every on ball action, conatact us to take the next step in the scouting journey")
+st.write("Here we show the exact actions and quality of each identified LB to examine every on ball action, contact us to take the next step in the scouting journey")
 
