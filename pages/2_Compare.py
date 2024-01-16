@@ -7,7 +7,7 @@ st.subheader('Variable Description')
 
 
 
- Create a DataFrame with variable descriptions
+
 data = {
     'Variable': ['turnovers_90', 'fouls_90', 'minutes', 'pressures_90','padj_pressures_90','box_cross_ratio','obv_pass_90','op_passes_into_box_90',
                  'pressure_regains_90','padj_tackles_and_interceptions_90','obv_defensive_action_90','aerial_ratio','deep_progressions_90','obv_dribble_carry_90'],
