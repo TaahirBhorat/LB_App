@@ -3,10 +3,9 @@ import pandas as pd
 
 st.title('Selected Left Back Comparison')
 st.image('Plots/compare.png', use_column_width=True)
-st.subheader('Variable Description')
-
 st.image('Plots/Comp2.png', use_column_width=True)
 
+st.subheader('Variable Description')
 
 data = {
     'Variable': ['turnovers_90', 'fouls_90', 'minutes', 'pressures_90','padj_pressures_90','box_cross_ratio','obv_pass_90','op_passes_into_box_90',
