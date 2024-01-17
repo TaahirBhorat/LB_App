@@ -5,7 +5,7 @@ st.title('Selected Left Back Comparison')
 st.image('Plots/compare.png', use_column_width=True)
 st.subheader('Variable Description')
 
-
+st.image('Plots/Comp2.png', use_column_width=True)
 
 
 data = {
